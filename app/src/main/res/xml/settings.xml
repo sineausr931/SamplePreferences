@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="key_checkbox_preference"
+        android:title="Checkbox preference" />
+    <EditTextPreference
+        android:defaultValue="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        android:key="key_edit_text_preference"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Edit text preference" />
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="key_switch_preference"
+        android:title="Switch preference" />
+    <ListPreference
+        android:defaultValue="Yahoo"
+        android:entries="@android:array/imProtocols"
+        android:entryValues="@android:array/imProtocols"
+        android:key="key_list_preference"
+        android:title="List preference" />
+    <MultiSelectListPreference
+        android:defaultValue="@android:array/phoneTypes"
+        android:entries="@android:array/phoneTypes"
+        android:entryValues="@android:array/phoneTypes"
+        android:key="key_multi_select_list_preference"
+        android:title="Multi-select list preference" />
+    <DropDownPreference
+        android:defaultValue="12"
+        android:key="key_drop_down_preference"
+        android:entries="@array/drop_down_entries"
+        android:entryValues="@array/drop_down_values"
+        android:title="Drop-down preference" />
+</PreferenceScreen>

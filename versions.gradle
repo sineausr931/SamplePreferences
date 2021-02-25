@@ -1,0 +1,13 @@
+ext.deps = [:]
+def versions = [:]
+versions.navigation = "2.3.3"
+ext.versions = versions
+
+// Version urls found here: https://developer.android.com/jetpack/androidx/releases/navigation
+
+def navigation = [:]
+navigation.fragment = "androidx.navigation:navigation-fragment-ktx:${versions.navigation}"
+navigation.ui = "androidx.navigation:navigation-ui-ktx:${versions.navigation}"
+deps.navigation = navigation
+
+ext.deps = deps

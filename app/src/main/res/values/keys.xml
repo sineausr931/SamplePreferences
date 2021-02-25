@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation">
+
+    <!-- Keys for SettingsFragment -->
+    <string name="key_checkbox_preference">key_checkbox_preference</string>
+    <string name="key_edit_text_preference">key_edit_text_preference</string>
+    <string name="key_switch_preference">key_switch_preference</string>
+    <string name="key_list_preference">key_list_preference</string>
+    <string name="key_multi_select_list_preference">key_multi_select_list_preference</string>
+    <string name="key_drop_down_preference">key_drop_down_preference</string>
+</resources>
